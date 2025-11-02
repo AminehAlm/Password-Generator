@@ -96,7 +96,7 @@ Or include a screenshot / gif (if you have one):
 ```
 project-folder/
 │
-├── app.py                # Main Streamlit app
+├── Password-Generator.py                # Main Streamlit app
 ├── requirements.txt      # Dependencies
 ├── README.md             # Project documentation
 └── utils/                # Helper modules (if any)
