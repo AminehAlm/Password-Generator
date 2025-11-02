@@ -1,0 +1,15 @@
+# Core dependencies
+streamlit==1.39.0           # Web app framework for interactive UI
+nltk==3.9.1                 # Natural language toolkit for text corpus (Brown, Stopwords)
+watchdog==6.0.0             # Streamlit dependency for live app reloads
+
+# Utility libraries
+numpy>=1.26.0               # For mathematical operations (optional but used internally by NLTK)
+pandas>=2.2.2               # For any future data handling (optional, common dependency)
+
+# System / Standard libraries (no install needed)
+# math, csv, os, sys, secrets, string, random → come with Python standard library
+
+# Notes:
+# - Tested on Python 3.10+
+# - Run `python -m nltk.downloader brown stopwords` after install if they’re not preloaded
